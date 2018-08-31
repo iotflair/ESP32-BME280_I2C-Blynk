@@ -4,7 +4,7 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
-#include "driver/ESP32_BME280_I2C.h"
+#include "ESP32_BME280_I2C.h"
 
 const uint8_t SCL_bme280 = 27;
 const uint8_t SDA_bme280 = 26; //SDA
